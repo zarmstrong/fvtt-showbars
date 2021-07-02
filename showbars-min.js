@@ -1,4 +1,4 @@
-var showshowpc=true;var showhidepc=true;var showshownpc=true;var showhidenpc=true;var showshownamepc=true;var showhidenamepc=true;Hooks.on("getActorDirectoryFolderContext",(html,contextOptions)=>{addMenuOptions(contextOptions);});function addMenuOptions(contextOptions){console.log("showbars showshowpc:"+showshowpc)
+const showbarsVersion="0.1.1";var showshowpc=true;var showhidepc=true;var showshownpc=true;var showhidenpc=true;var showshownamepc=true;var showhidenamepc=true;Hooks.on("getActorDirectoryFolderContext",(html,contextOptions)=>{addMenuOptions(contextOptions);});function addMenuOptions(contextOptions){console.log("showbars showshowpc:"+showshowpc)
 if(showshowpc){contextOptions.push({name:"Show PC Healthbars",icon:'<i class="fas fa-heart"></i>',condition:li=>game.user.isGM,callback:li=>showPCHealthBar(li)});}
 if(showhidepc){contextOptions.push({name:"Hide PC Healthbars",icon:'<i class="far fa-heart"></i>',condition:li=>game.user.isGM,callback:li=>hidePCHealthBar(li)});}
 if(showshownpc){contextOptions.push({name:"Show NPC Healthbars",icon:'<i class="fas fa-plus-square"></i>',condition:li=>game.user.isGM,callback:li=>showNPCHealthBar(li)});}

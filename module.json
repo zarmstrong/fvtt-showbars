@@ -3,7 +3,7 @@
   "title": "Show Bars",
   "description": "This module adds a menu option to folders that sets all actors within the folder(s) to have certain bars displayed.",
   "author": "slate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [ 
@@ -14,7 +14,7 @@
   "dependencies": [],
   "url": "https://github.com/zarmstrong/fvtt-showbars",
   "manifest": "https://raw.githubusercontent.com/zarmstrong/fvtt-showbars/main/module.json",
-  "download": "https://github.com/zarmstrong/fvtt-showbars/releases/download/ShowBars-0.1.0/ShowBars-0.1.0.zip",
+  "download": "https://github.com/zarmstrong/fvtt-showbars/releases/download/ShowBars-0.1.1/ShowBars-0.1.1.zip",
   "license": "MIT",
   "readme": "https://github.com/zarmstrong/fvtt-showbars",
   "bugs": "https://github.com/zarmstrong/fvtt-showbars/issues",
