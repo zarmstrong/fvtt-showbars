@@ -1,4 +1,4 @@
-const showbarsVersion="0.1.1";
+const showbarsVersion="0.1.2";
 var showshowpc=true;
 var showhidepc=true;
 var showshownpc=true;
