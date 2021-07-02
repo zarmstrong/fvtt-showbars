@@ -17,4 +17,6 @@ Show Bars is a Foundry VTT module that allows GMs to quickly show/hide the follo
 
  # Additional notes
 
- This module has been tested with Pathfinder 2e only. It might work for others, but only Pathfinder 2e is officially supported. Want me to support another system?  Post an issue requesting it!
+ This module has been tested with Pathfinder 2e only. It might work for others, but only Pathfinder 2e is officially supported.  That said, any system that uses *attributes.hp* to track HP should work.
+
+ Want me to support another system?  Post an issue requesting it!
