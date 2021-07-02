@@ -1,3 +1,4 @@
+const showbarsVersion="0.1.0";
 var showshowpc=true;
 var showhidepc=true;
 var showshownpc=true;
